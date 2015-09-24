@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-@font-face {
+/*@font-face {
   font-family: 'fontello';
   src: url('../font/fontello.eot?85608851');
   src: url('../font/fontello.eot?85608851#iefix') format('embedded-opentype'),
@@ -10,7 +10,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
+*/
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #47A3DA;
@@ -83,9 +83,18 @@ h3 { font-size: 24px; }
 }
 
 .ba-drink__btn-add:before {
-	content: '\e801';
+/*	content: '\e801';
 	font-family: 'fontello';
+*/
+	content: '';
 	margin-right: 5px;
+	background: url(../img/add73.svg) no-repeat 50%;
+	-webkit-background-size: 15px;
+	     -o-background-size: 15px;
+	        background-size: 15px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
 }
 
 @media screen and (max-width: 900px) {
